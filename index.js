@@ -96,6 +96,7 @@ const run = async () => {
   await extract(workspaceZip, { dir: workspaceDir });
   await unlink(workspaceZip);
 
+  
   console.log(`✅ Export downloaded and unzipped.`);
 };
 
